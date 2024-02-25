@@ -4,7 +4,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Book a room', href: '#' },
+  { name: 'Book a room', href: "#" },
   { name: 'Wedding & Events', href: '#' },
   { name: 'Our story', href: '#' },
   { name: 'Explore Windsor', href: '#' },
@@ -46,7 +46,7 @@ export default function Example() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hidden">
               Login <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
