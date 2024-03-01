@@ -8,7 +8,9 @@ const RoomDetailsTemplate = () => {
       <div class="content bg-slate-300 p-3">
         <h2 class="">Samantha's Suite</h2>
         <p>Room #1</p>
-        <p class="mt-7">Lorem ipsum dolor sit amet, perpetua complectitur ne sea, solum dissentias ut his. Per lorem scripta et, sadipscing consectetuer in eos. Ex nam invidunt convenire. Cum te natum detracto reprimique, dicit verear petentium duo no. Ad nam stet tibique, ne veri indoctum mediocritatem est.</p>
+        <p class="mt-7">Enjoy an exceptional stay in our spacious and elegant LOFT, featuring a vaulted ceiling, cable TV, VCR, couch / sitting area, king size custom bed, large working desk, private washroom and Jacuzzi tub with shower. 
+        Samantha’s Suite also has a bar fridge and a CD player system with “mood disks”. Whether you're a business traveler or a couple seeking a romantic weekend escape, Samantha's Suite caters to all. 
+</p>
         <div class="mt-10">
           <div class="price flex justify-between">
             <h2>Room only</h2>
@@ -18,7 +20,7 @@ const RoomDetailsTemplate = () => {
             <h2>Room with breakfast</h2>
             <p>from $150</p>
           </div>
-          <button class="mt-3 rounded-lg bg-black p-1 px-2 text-white">view more</button>
+          <button class="mt-3 rounded-lg bg-black p-1 px-2 text-white">Book Now</button>
         </div>
       </div>
     </div>
@@ -26,28 +28,28 @@ const RoomDetailsTemplate = () => {
     <div id="Room Amenities" class="mt-10">
       <h2>Room Amenities</h2>
       <div class="mt-1 flex gap-3">
-        <span>King Size bed</span>
-        <span>Jacuzzi Tub with shower</span>
-        <span>Working Desk</span>
-        <span>Sitting area</span>
-        <span>Cable TV</span>
+        <span>King Size Bed</span>
+        <span>Jacuzzi Tub</span>
+        <span>Desk</span>
+        <span>Sofa</span>
+        <span>TV</span>
       </div>
     </div>
     <div id="BNB features" class="mt-10">
-      <h2>Room Amenities</h2>
+      <h2>Bed and Breakfast Features</h2>
       <div class="mt-1 flex gap-3">
         <span>Free Wifi</span>
-        <span>Onsite self-praking</span>
+        <span>Onsite Self-parking</span>
         <span>24/7 Tea Kettle & Coffee Machine </span>
         <span>Irons</span>
       </div>
     </div>
     <div id="Booking Policies" class="mt-10">
-      <h2>Room Amenities</h2>
+      <h2>Booking Policies</h2>
       <div class="mt-1 flex gap-3">
-        <span>Check-in 4 PM Check-out 11 PM.</span>
-        <span>No smoking</span>
-        <span>No pets</span>
+        <span>Check-in 4 PM. Check-out 11 PM.</span>
+        <span>No Smoking</span>
+        <span>No Pets</span>
       </div>
     </div>
   
